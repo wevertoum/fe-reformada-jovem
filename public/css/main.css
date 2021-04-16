@@ -1,71 +1,42 @@
-/* =================================================================== 
- *  Hesed Main Stylesheet
- *  Template Ver. 1.0.0
- *  06-26-2019
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # custom block grid STACK breakpoints
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## lists
- *    ## responsive video container
- *    ## floated image
- *    ## tables
- *    ## spacing 
- *  # preloader
- *  # forms
- *    ## style placeholder text
- *    ## change autocomplete styles in Chrome
- *  # buttons
- *  # additional components
- *    ## additional typo styles
- *    ## skillbars
- *    ## alert box
- *    ## pagination
- *  # common and reusable styles
- *    ## events list
- *    ## block list
- *  # site header
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle
- *  # hero
- *    ## hero left bar
- *    ## hero content
- *    ## hero content buttons
- *    ## hero social
- *    ## hero scroll
- *    ## hero animations
- *  # about
- *    ## about content
- *    ## schedule of services
- *  # connect
- *  # events
- *  # current series
- *    ## series image
- *    ## series content
- *    ## series buttons
- *    ## series subscribe
- *  # social
- *  # footer
- *    ## footer logo
- *    ## footer list
- *    ## copyright
- *    ## go to top
- *  # page styles and page components
- *    ## page header
- *    ## page content
- *    ## about page
- *    ## event page
- *
- * =================================================================== */
+/* Poppins font */
 
-/* ===================================================================
- * # custom block grid STACK breakpoints
- *
- * ------------------------------------------------------------------- */
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsBoldItalic";
+  src: url("../fonts/Poppins/Poppins-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsLightItalic";
+  src: url("../fonts/Poppins/Poppins-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsThin";
+  src: url("../fonts/Poppins/Poppins-Thin.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsThinItalic";
+  src: url("../fonts/Poppins-ThinItalic.ttf");
+}
+
+/* SourceSans font */
+
+@font-face {
+  font-family: "SourceSansProBold";
+  src: url("../fonts/SourceSans/SourceSansPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "SourceSansProBoldItalic";
+  src: url("../fonts/SourceSans/SourceSansPro-BoldItalic.ttf");
+}
+
 @media screen and (max-width: 1000px) {
   .block-1000-full > .column {
     -webkit-flex: 0 0 100%;
@@ -105,7 +76,7 @@ body {
 
 body {
   background: #121212;
-  font-family: "Lora", serif;
+  font-family: "PoppinsLightItalic", sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: normal;
@@ -151,12 +122,25 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #000000;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "SourceSansProBold", sans-serif;
 }
 
 h1,
@@ -169,6 +153,10 @@ h4,
 .h4 {
   margin-top: 6rem;
   margin-bottom: 1.6rem;
+}
+
+.h2 {
+  font-family: "SourceSansProBoldItalic", sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -252,7 +240,7 @@ p img {
 }
 
 p.lead {
-  font-family: "Lora", serif;
+  font-family: "PoppinsLightItalic", sans-serif;
   font-weight: 500;
   font-size: 2.8rem;
   line-height: 1.857;
@@ -317,7 +305,7 @@ blockquote {
 }
 
 blockquote p {
-  font-family: "Lora", serif;
+  font-family: "PoppinsBoldItalic", sans-serif;
   font-weight: 400;
   padding: 0;
   font-size: 2.8rem;
@@ -339,7 +327,7 @@ blockquote p {
 
 blockquote cite {
   display: block;
-  font-family: "Open Sans", sans-serif;
+  font-family: "PoppinsBold", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   line-height: 1.333;
@@ -538,7 +526,7 @@ td {
 
 th {
   color: #000000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-weight: 700;
 }
 
@@ -961,7 +949,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-weight: 700;
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -1217,7 +1205,7 @@ input::-moz-focus-inner {
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-weight: 700;
   border: none;
   color: #000000;
@@ -1258,7 +1246,7 @@ input::-moz-focus-inner {
   position: absolute;
   left: 0;
   top: -4rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
@@ -1278,7 +1266,7 @@ input::-moz-focus-inner {
   right: 0;
   top: -3.6rem;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   color: #ffffff;
   font-size: 1.1rem;
   line-height: 1;
@@ -1487,7 +1475,7 @@ input::-moz-focus-inner {
 }
 
 .pgn__num {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-weight: 700;
   font-size: 1.7rem;
   line-height: 3.2rem;
@@ -1591,7 +1579,7 @@ input::-moz-focus-inner {
 }
 
 .subhead {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.5;
@@ -1604,7 +1592,7 @@ input::-moz-focus-inner {
 }
 
 .display-1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-weight: 700;
   font-size: 3.6rem;
   line-height: 1.222;
@@ -1640,7 +1628,7 @@ input::-moz-focus-inner {
 
 .events-list__meta {
   list-style: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.667;
@@ -1718,7 +1706,7 @@ input::-moz-focus-inner {
   content: counter(ctr);
   counter-increment: ctr;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
@@ -1847,7 +1835,7 @@ input::-moz-focus-inner {
 
 .header-nav {
   list-style: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-size: 0.9rem;
   line-height: 4.8rem;
   text-transform: uppercase;
@@ -2139,7 +2127,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .hero-social {
   list-style: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBolds", sans-serif;
   font-size: 0.9rem;
   line-height: 4.8rem;
   text-transform: uppercase;
@@ -2213,7 +2201,7 @@ input::-moz-focus-inner {
 }
 
 .hero-scroll .scroll-link {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-weight: 400;
   font-size: 9px;
   text-transform: uppercase;
@@ -2771,7 +2759,7 @@ html.no-csstransitions .hero-content {
  * ## series subscribe 
  * ------------------------------------------------------------------- */
 .series-content__subscribe {
-  font-family: "Open Sans", sans-serif;
+  font-family: "PoppinsLightItalic", sans-serif;
   font-size: 1.5rem;
   line-height: 1.867;
   padding: 0 4rem;
@@ -2917,7 +2905,7 @@ html.no-csstransitions .hero-content {
 
 .social-list {
   list-style: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SourceSansProBold", sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 5.6rem;
@@ -3052,7 +3040,7 @@ html.no-csstransitions .hero-content {
   padding-top: 12rem;
   padding-bottom: 8rem;
   background-color: #3b0d11;
-  font-family: "Open Sans", sans-serif;
+  font-family: "PoppinsLightItalic", sans-serif;
   font-size: 1.7rem;
   line-height: 1.882;
   color: rgba(255, 255, 255, 0.5);
@@ -3368,7 +3356,7 @@ html.no-csstransitions .hero-content {
 
 .church-staff__position {
   display: block;
-  font-family: "Open Sans", sans-serif;
+  font-family: "SourceSansProBoldItalic", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   margin-top: 0.6rem;
