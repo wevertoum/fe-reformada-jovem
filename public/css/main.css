@@ -240,6 +240,7 @@ p img {
 }
 
 p.lead {
+  text-align: justify;
   font-family: "PoppinsLightItalic", sans-serif;
   font-weight: 500;
   font-size: 2.8rem;
