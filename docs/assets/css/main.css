@@ -26,12 +26,6 @@
   src: url("../fonts/gilroy/Gilroy-Light.otf");
 }
 
-/*
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html,
 body,
 div,
@@ -2666,7 +2660,7 @@ input[type="radio"] + label:before {
 
   .image.fill .image-1 {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: fit-content;
   }
 }
@@ -2680,7 +2674,6 @@ input[type="radio"] + label:before {
     display: block;
     width: 100vw;
     position: relative;
-    height: fit-content;
   }
 }
 
