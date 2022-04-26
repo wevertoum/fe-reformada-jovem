@@ -2634,12 +2634,54 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
-.image.fill img {
+.image.fill .image-1 {
   height: 100%;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.image.fill .image-3 {
+  display: none;
+}
+
+@media screen and (max-width: 1660px) {
+  .image.fill .image-1 {
+    position: relative;
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  #wrapper > section.intro > .content {
+    margin-top: 8px;
+    height: fit-content !important;
+    padding: 0px !important;
+  }
+
+  .image.fill {
+    position: relative;
+  }
+
+  .image.fill .image-1 {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .image.fill .image-1 {
+    display: none;
+  }
+
+  .image.fill .image-3 {
+    display: block;
+    width: 100vw;
+    position: relative;
+    height: fit-content;
+  }
 }
 
 /* List */
