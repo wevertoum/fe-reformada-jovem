@@ -115,6 +115,10 @@ video {
   vertical-align: baseline;
 }
 
+iframe {
+  border-radius: 20px;
+}
+
 header > p,
 span {
   font-family: "Gilroy Light", Helvetica, sans-serif;
@@ -321,7 +325,7 @@ h4,
 h5,
 h6 {
   color: #eefb20;
-  font-family: "Titania Outline", Helvetica, sans-serif;
+  font-family: "Titania Regular", Helvetica, sans-serif;
   font-weight: 600;
   letter-spacing: 0.175em;
   line-height: 1.75;
@@ -2001,8 +2005,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  box-shadow: inset 0 0 0 2px #2ee4bb;
-  color: #2ee4bb !important;
+  box-shadow: inset 0 0 0 2px #eefb20;
+  color: #eefb20 !important;
 }
 
 input[type="submit"]:active,
@@ -2010,9 +2014,9 @@ input[type="reset"]:active,
 input[type="button"]:active,
 button:active,
 .button:active {
-  background-color: rgba(73, 252, 212, 0.25);
-  box-shadow: inset 0 0 0 2px #2ee4bb;
-  color: #2ee4bb !important;
+  background-color: rgba(238, 251, 32, 0.25);
+  box-shadow: inset 0 0 0 2px #eefb20;
+  color: #eefb20 !important;
 }
 
 input[type="submit"].small,
@@ -2090,7 +2094,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #93ffe7;
+  background-color: #ccd911;
 }
 
 input[type="submit"].primary:active,
@@ -2098,7 +2102,7 @@ input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: #44f2cb;
+  background-color: #ccd911;
 }
 
 @media screen and (max-width: 736px) {
@@ -2250,7 +2254,7 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #2ee4bb;
+  border-color: #eefb20;
 }
 
 label {
@@ -3530,7 +3534,7 @@ ul.feature-icons li:nth-child(2) {
 
 #wrapper .copyright {
   color: rgba(0, 0, 0, 0.25);
-  font-size: .7rem;
+  font-size: 0.7rem;
   left: 50vw;
   position: relative;
   width: 50vw;
