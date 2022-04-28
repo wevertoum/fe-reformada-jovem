@@ -35,7 +35,8 @@
 
             <h1 class="theme-title">ALEGREM-SE <br>OS POVOS</h1>
             
-            <img class="img-footer" src="images/icons/bgas.svg" />
+            <img class="img-footer-left" src="images/icons/bgas.svg" />
+            <img class="img-footer-right" src="images/icons/logo-EFRJ.svg" />
           </div>
         </div>
       </section>
@@ -157,16 +158,73 @@
         </header>
         <div class="content">
 
-          <h1 class="title-content">Valores de Inscrições</h1>
+          <h1 class="title-content">Valores de Inscrições (com camiseta inclusa)</h1>
 
-          <h2 class="title-medium">1º Lote: R$ 120,00 (com camiseta)</h2>
-          <h2 class="title-medium">2º Lote: R$ 150,00 (com camiseta)</h2>
-          <h2 class="title-medium">3º Lote: R$ 170,00 (com camiseta)</h2>
+          <h2 class="title-medium">1º Lote: R$ 120,00 (até 05/08)</h2>
+          <h2 class="title-medium">2º Lote: R$ 150,00 (até 20/08)</h2>
+          <h2 class="title-medium">3º Lote: R$ 170,00 (até 05/10)</h2>
 
           <ul class="actions">
             <li><a href="https://checkout.mycheckout.com.br/checkout/626926f9236e3e055ca1c148" class="button primary large">Fazer inscrição</a></li>
-           
           </ul>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>Instruções para brinde</h2>
+        </header>
+        <div class="content">
+
+          <h1 class="title-content">Já fez sua inscrição?</h1>
+
+          <h2 class="title-medium">Precisamos de algumas informações para separar seu brinde</h2>
+
+          <p>
+            No ato da pessoa fazer a inscrição pela evermart - Essa inscrição
+            lhe dará o direito de participar de todas as palestras, bem como uma camiseta do evento
+            de brinde. Para ter acesso ao brinde no dia do evento, preencha o formulário que está 
+            no site do evento até o dia 07 de Setembro de 2022. IMPORTANTE: Não nos responsabilizamos
+            pelo brinde de quem não preencher o formulário dentro do prazo estabelecido.
+          </p>
+
+          <form action="https://formsubmit.co/fereformadajovempipg@gmail.com" method="POST">
+            <div class="fields">
+              <div class="field half">
+                <label for="name_brinde">Seu nome</label>
+                <input required type="text" name="name_brinde" id="name_brinde" placeholder="Digite seu nome" />
+              </div>
+              <div class="field half">
+                <label for="tamanho_brinde">Tamanho da camisa</label>
+                <select required name="tamanho_brinde" id="tamanho_brinde">
+                  <option value="P">P</option>
+                  <option value="M">M</option>
+                  <option value="G">G</option>
+                  <option value="GG">GG</option>
+                </select>
+
+              </div>
+              <div class="field">
+                <label for="email_brinde">Seu e-mail</label>
+                <input
+                required
+                  type="email"
+                  name="email_brinde"
+                  id="email_brinde"
+                  placeholder="E-mail usado na inscrição"
+                />
+              </div>
+            </div>
+            <ul class="actions">
+              <li>
+                <input
+                  type="submit"
+                  value="Garantir meu brinde"
+                  class="button primary"
+                />
+              </li>
+            </ul>
+          </form>
         </div>
       </section>
 
@@ -181,22 +239,24 @@
           <form action="https://formsubmit.co/fereformadajovempipg@gmail.com" method="POST">
             <div class="fields">
               <div class="field half">
-                <input type="text" name="name" id="nome" placeholder="Nome" />
+                <input required type="text" name="name_contact" id="name_contact" placeholder="Nome" />
               </div>
               <div class="field half">
                 <input
+                  required
                   type="email"
-                  name="email"
-                  id="email"
+                  name="email_contact"
+                  id="email_contact"
                   placeholder="E-mail"
                 />
               </div>
               <div class="field">
                 <textarea
-                  name="mensagem"
-                  id="message"
+                  required
+                  name="message_contact"
+                  id="message_contact"
                   placeholder="Mensagem"
-                  rows="7"
+                  rows="3"
                 ></textarea>
               </div>
             </div>

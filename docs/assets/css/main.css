@@ -2688,7 +2688,7 @@ input[type="radio"] + label:before {
   }
 }
 
-.content-header .img-footer {
+.content-header .img-footer-left {
   width: 180px;
   transform: rotate(270deg);
   position: absolute;
@@ -2696,18 +2696,15 @@ input[type="radio"] + label:before {
   left: -60px;
 }
 
-@media screen and (max-width: 1152px) {
+.content-header .img-footer-right {
+  width: 170px;
+  position: absolute;
+  bottom: 24px;
+  right: 40px;
 }
 
-/* @media screen and (max-width: 1152px) {
-  #wrapper > section.intro > .content {
-    margin-top: 8px;
-    height: fit-content !important;
-    padding: 0px !important;
-  }
-} */
-
-/* List */
+@media screen and (max-width: 1152px) {
+}
 
 ol {
   list-style: decimal;
