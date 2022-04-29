@@ -2688,14 +2688,6 @@ input[type="radio"] + label:before {
   }
 }
 
-.content-header .img-footer-left {
-  width: 180px;
-  transform: rotate(270deg);
-  position: absolute;
-  bottom: 100px;
-  left: -60px;
-}
-
 .content-header .img-footer-right {
   width: 170px;
   position: absolute;
