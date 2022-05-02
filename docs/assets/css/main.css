@@ -2630,7 +2630,7 @@ input[type="radio"] + label:before {
   flex: 1;
   height: 100%;
   width: 100%;
-  background-image: url("../../images/bg1.jpg");
+  background-image: url("https://raw.githubusercontent.com/wevertoum/fe-reformada-images/master/images/bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3484,7 +3484,7 @@ ul.feature-icons li:before {
 }
 
 #wrapper .copyright {
-  color: rgba(0, 0, 0, 0.40);
+  color: rgba(0, 0, 0, 0.4);
   font-size: 0.9rem;
   left: 50vw;
   position: relative;
