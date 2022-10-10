@@ -1,3 +1,3 @@
 # fe-reformada-jovem
 
-nova versão para site para o evento fé reformada jovem 2022
+nova versão do site para o evento fé reformada jovem 2022
