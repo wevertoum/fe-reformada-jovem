@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap");
 
 @font-face {
-  font-family: "Morstowne";
-  src: url("../fonts/morstowne/Morstowne.woff") format("woff"),
-    url("../fonts/morstowne/Morstowne.woff2") format("woff2");
+  font-family: "Morstowne Regular";
+  src: url("../fonts/morstowne/Morstowne-Regular.ttf");
 }
 
 html {
@@ -1193,7 +1192,7 @@ label {
   animation: heroFadeIn 0.6s ease forwards 0.45s;
 }
 .hero-title {
-  font-family: "Morstowne", sans-serif;
+  font-family: "Morstowne Regular", sans-serif;
   color: #123967;
   letter-spacing: 1px;
   line-height: 1;
