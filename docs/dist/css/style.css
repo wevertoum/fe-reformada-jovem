@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: "Morstowne";
-  src: url("../fonts/Morstowne/Morstowne.woff") format("woff"),
-    url("../fonts/Morstowne/Morstowne.woff2") format("woff2");
+  src: url("../fonts/morstowne/Morstowne.woff") format("woff"),
+    url("../fonts/morstowne/Morstowne.woff2") format("woff2");
 }
 
 html {
