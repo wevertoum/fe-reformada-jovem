@@ -1,17 +1,19 @@
 @font-face {
   font-family: "Comfortaa Bold";
-  src: url("../fonts/comfortaa/Comfortaa-Bold.ttf");
+  src: url("../fonts/comfortaa/Comfortaa-Bold.woff"),
+    url("../fonts/comfortaa/Comfortaa-Bold.woff2");
 }
 
 @font-face {
   font-family: "Comfortaa Regular";
-  src: url("../fonts/comfortaa/Comfortaa-Regular.ttf");
+  src: url("../fonts/comfortaa/Comfortaa-Regular.woff"),
+    url("../fonts/comfortaa/Comfortaa-Regular.woff2");
 }
 
 @font-face {
   font-family: "Morstowne";
-  src: url("../fonts/Morstowne/Morstowne.ttf"),
-    url("../fonts/Morstowne/Morstowne.otf");
+  src: url("../fonts/Morstowne/Morstowne.woff"),
+    url("../fonts/Morstowne/Morstowne.woff2");
 }
 
 html {
