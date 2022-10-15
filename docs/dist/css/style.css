@@ -1,14 +1,4 @@
-@font-face {
-  font-family: "Comfortaa Bold";
-  src: url("../fonts/comfortaa/Comfortaa-Bold.woff"),
-    url("../fonts/comfortaa/Comfortaa-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Comfortaa Regular";
-  src: url("../fonts/comfortaa/Comfortaa-Regular.woff"),
-    url("../fonts/comfortaa/Comfortaa-Regular.woff2");
-}
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap");
 
 @font-face {
   font-family: "Morstowne";
